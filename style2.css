@@ -1,0 +1,25 @@
+body{
+	background: whitesmoke;
+}
+
+table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	height: 150px;
+	font-size: 25px;
+
+
+
+}
+th{
+	background-color: green;
+	text-align: center;
+}
+tr:hover{
+	background-color: lightblue;
+}
+.trr{
+	background-color: lightgray;
+}

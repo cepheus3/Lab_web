@@ -1,0 +1,97 @@
+body{
+	font-family: "verenda";
+	font-size: 0.8em;
+	background-color: lightblue;
+}
+header, section, article, nav, footer{
+	border:  2px solid gray;
+	margin: 5px;
+	padding: 8px;
+
+}
+nav, ul {
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+
+}
+nav{
+	border: 0px;
+	list-style-type: none;
+	position: static;
+}
+
+nav, ul, li{
+	margin: 5px;
+	border-radius: 5px;
+	padding-right: 12px;
+	display: inline;
+
+}
+
+.ul.a{
+	border-radius: 10px;
+	padding: 15px;
+}
+
+header, footer{
+	color: white;
+	background-color: #444;
+	margin-bottom: 5px;
+
+}
+
+header:hover, footer:hover{
+
+background-color:dodgerblue;
+}
+section{
+	width: 50%;
+	height: 100%px;
+	background-color: #ddd;
+	font-size: 20px;
+	
+}
+
+
+.p1{
+	background-color: ghostwhite;
+}
+.p1:hover{
+	background-color: black;
+	color: yellow;
+
+}
+
+
+.p2{
+	background-color:floralwhite;
+}
+
+.p2:hover{
+	background-color:black ;
+	color: yellow;
+}
+
+.p3:hover{
+	background-color:black;
+	color: yellow;
+}
+
+
+a.L{
+	border-radius: 15px;
+}
+a:link ,a:visited{
+   
+	background-color: green;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 25px;
+	display: inline-block;
+
+}
+a:hover, a:active{
+	background-color: blue;
+}
